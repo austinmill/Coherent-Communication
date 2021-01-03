@@ -1,6 +1,6 @@
 # Coherent-Communication
 This a sample for coherent optical communication based on Python 3.8, that supports QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM and 128-SP-QAM
-signal generation, fiber transmission and receiption.
+signal generation, fiber transmission and receiption. The semi non-ideal models of ADC nad DAC are included.
 
 Download all 4 .py files and placed them in the same folder, run the main.py file, a SP-16QAM will be demonstrated.
 
@@ -9,7 +9,8 @@ You could edit the main.py to get other modulation format and parameters, such a
 This sample is all based on published papers or books.
 
 
-本文档是一个基于Python 3.8撰写的相干光通信的样例， 支持QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM和128-SP-QAM码型的产生，光纤传输和接收。
+本文档是一个基于Python 3.8撰写的相干光通信的样例， 支持QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM和128-SP-QAM码型的产生，光纤传输和接收。ADC/
+DAC的半非理想模型已经包含在内。
 
 请下载全部的4个.py文件，放在同一个文件夹下，并运行main.py文件（请提前安装Python 3），可以得到一个SP-16QAM的展示(OSNR=20dB, 5跨段每段101km)。
 运行结果可参考文件夹中的截图。
