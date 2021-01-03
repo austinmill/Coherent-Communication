@@ -12,7 +12,7 @@
 #Sympy
 #matplotlib
 #Scipy
-#Modulation Format Supported: QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM, 128-SP-QAM, PS-16QAM
+#Modulation Format Supported: QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM, 128-SP-QAM
 #####################################################################
 if 1:
     import os
@@ -47,7 +47,7 @@ if 1:
     c = 2.9979e-1               #定义光速，单位为m/ns
     f_cent = 193.1*1e3          #定义载波光频率,单位为GHz
     wavelength = c /f_cent      #定义载波光波长,单位为m
-    #———————————————————————————#定义调制格式，可选QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM, 128-SP-QAM, PS-16QAM
+    #———————————————————————————#定义调制格式，可选QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM, 128-SP-QAM
     mod='SP-16QAM'
     #———————————————————————————#定义数据长度
     length = 2**16+2**10
