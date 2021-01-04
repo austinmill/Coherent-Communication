@@ -16,7 +16,7 @@ low phase noise, it is tough to simulate the low-frequency phase noise with fini
 
 Test.py includes the common used optical tester/measurement, such as OSA, ESA, O/E eye diagram, optical power, constellation and EVM test.
 
-You could also edit the main.py to get other modulation formats and parameters, such as different Baudrate, ADC resolution/bandwidth
+You could also edit the main.py to get other modulation formats and parameters, such as different Baudrate, ADC/DAC resolution/bandwidth
 /sampling rate, OSNR, fiber spans, PMD...
 
 This sample is all based on published papers or books, could be used by the researchers of optical communication. Please feel free to 
@@ -36,6 +36,6 @@ Optics.py包含了常见的光学效应模型，例如IQ光调制器，偏振分
 
 Test.py中包含了常用的光通信测量手段，例如光谱，电频谱，光/电眼图，光功率测量，星座图和EVM测量。
 
-也可以编辑main.py文件，得到你想要的其他调制码型或不同的参数，例如不同的波特率, ADC分辨率/带宽/采样率，OSNR，光纤跨段以及PMD。
+也可以编辑main.py文件，得到你想要的其他调制码型或不同的参数，例如不同的波特率, ADC/DAC分辨率/带宽/采样率，OSNR，光纤跨段以及PMD。
 
 该文档全部基于已经发表的论文或出版的书籍，可用于光通信领域的技术人员学习与研究。有更多的建议请联系我：austinmill2010@gmail.com
