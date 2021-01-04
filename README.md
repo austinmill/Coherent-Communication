@@ -18,7 +18,8 @@ Test.py includes the common used optical tester/measurement, such as OSA, ESA, O
 
 You could also edit the main.py to get other modulation formats and parameters, such as different Baudrate, OSNR, fiber spans, PMD...
 
-This sample is all based on published papers or books.
+This sample is all based on published papers or books, could be used by the researchers of optical communication. Please feel free to 
+contact me if any comments or suggestion. Email: austinmill2010@gmail.com
 
 
 本文档是一个基于Python 3.8撰写的相干光通信的样例， 支持QPSK, 8QAM, 16QAM, SP-16QAM, 32-SP-QAM和128-SP-QAM码型的产生，光纤传输和接收。ADC/
