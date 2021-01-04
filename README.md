@@ -6,7 +6,7 @@ Download all 4 .py files and placed them in the same folder, run the main.py fil
 5x101km spans will be demonstrated. The result is shown in the snapshots in the folder.
 
 DSP.py includes general digital processing, such as interplotation (No, I didn't use thr resample function from Matlabs, but simple 
-linear interplotation instead for HW feasbility), QAM code/decode, semi non-ideal models of ADC and DAC, ADC sampling phase adjustment,
+linear interplotation instead for HW feasbility), QAM code/decode, non-ideal models of ADC and DAC, ADC sampling phase adjustment,
 CD estimation and compensation, PMD dynamic compensation (CMA, RDA and DD-LMS), frequency offset estimation and compensation, carrier
 phase recovery (Blind Phase searching).
 
@@ -27,7 +27,7 @@ contact me if any comments or suggestion. Email: austinmill2010@gmail.com
 请下载全部的4个.py文件，放在同一个文件夹下，并运行main.py文件（请提前安装Python 3），可以得到一个SP-16QAM的展示(OSNR=20dB, 5跨段每段101km)。
 运行结果可参考文件夹中的截图。
 
-DSP.py中包含了通用的DSP处理，例如插值(我没有使用Matlabs的resample函数，而是基于硬件可实现性使用了简单的线性插值)，QAM编码/解码，ADC/DAC半非
+DSP.py中包含了通用的DSP处理，例如插值(我没有使用Matlabs的resample函数，而是基于硬件可实现性使用了简单的线性插值)，QAM编码/解码，ADC/DAC非
 理想模型，ADC采样相位调整，CD估算与补偿，PMD动态补偿（CMA，RDA和DD-LMS三种方法），频偏估算与补偿，相位恢复（BPS方法）。
 
 Optics.py包含了常见的光学效应模型，例如IQ光调制器，偏振分集/相位分集内差接收机，WSS光滤波器，光纤色散/PMD。其中激光器的相位噪声模型还不够完善，
