@@ -10,7 +10,13 @@ linear interplotation instead for HW feasbility), QAM code/decode, semi non-idea
 CD estimation and compensation, PMD dynamic compensation (CMA, RDA and DD-LMS), frequency offset estimation and compensation, carrier
 phase recovery (Blind Phase searching).
 
-You could edit the main.py to get other modulation format and parameters, such as different Baudrate, OSNR, fiber spans, PMD...
+Optics.py includes the models of common used optical effects, such as IQ optical modulation, pol-diversity/phase-diversity intradyne 
+receiver, WSS optical filter, CD and PMD of fiber. The model of phase noise of laser is not well done, since the modern lasers have very
+low phase noise, it is tough to simulate the low-frequency phase noise with finite length of time sequence. Need you help, guys!
+
+Test.py includes the common used optical tester/measurement, such as OSA, ESA, O/E eye diagram, optical power, constellation and EVM test.
+
+You could also edit the main.py to get other modulation formats and parameters, such as different Baudrate, OSNR, fiber spans, PMD...
 
 This sample is all based on published papers or books.
 
